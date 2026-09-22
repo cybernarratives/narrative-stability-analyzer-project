@@ -29,23 +29,17 @@ NSA is intended to make those failure modes inspectable before they become sales
 
 Large language models are useful reasoning systems, but an unconstrained model can easily “help” by supplying an organizing abstraction, causal bridge, or boundary that the source narrative itself never established.
 
-NSA therefore uses a structured methodology to separate:
+NSA therefore uses a structured methodology to distinguish what the narrative establishes from what a reader would have to supply on their own, and to test whether materially different interpretations remain plausible.
 
-1. what the narrative explicitly states;
-2. what can reasonably be inferred from reader-visible context;
-3. what remains unresolved;
-4. whether multiple plausible interpretations are materially different;
-5. whether one interpretation is actually privileged by the supplied wording.
-
-The goal is not to punish compression or provocative messaging. The goal is to determine whether the narrative itself does enough interpretive work for the intended audience.
+The goal is not to punish compression or provocative messaging. The goal is to determine whether the narrative does enough interpretive work for the intended audience without relying on the model to silently repair missing relationships.
 
 ## Current architecture
 
 The project combines three layers:
 
-- **Structured diagnostic methodology** — rules for evaluating interpretation, boundaries, responsibility, mechanism, promises, and continuity.
-- **LLM-assisted reasoning** — used to identify plausible reader models, evidence, counterevidence, and diagnostic findings.
-- **Deterministic application logic** — used for schema validation, scoring orchestration, versioning, and repeatable output handling.
+- **Structured diagnostic methodology** — a formal set of rules for evaluating whether a narrative supports a sufficiently stable reader interpretation.
+- **LLM-assisted reasoning** — used inside bounded diagnostic tasks rather than as an unconstrained grader.
+- **Deterministic application logic** — used for validation, orchestration, versioning, and repeatable output handling.
 
 The production implementation, prompts, calibration corpus, scoring details, and evaluation fixtures remain private.
 

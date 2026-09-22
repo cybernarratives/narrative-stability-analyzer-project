@@ -1,7 +1,18 @@
 # Repository Note
 
-This repository is currently provided as a public project and methodology overview.
+This repository is a public project and methodology overview.
 
-No open-source license has been granted for the underlying production implementation. The production application, prompts, scoring logic, evaluation corpus, and proprietary implementation remain private.
+It does not contain the production application or the proprietary implementation behind the Narrative Stability Analyzer.
 
-If this repository later includes reusable source code, licensing will be addressed explicitly at that time.
+The following remain private:
+
+- production source code;
+- prompt architecture;
+- internal parameter taxonomy;
+- scoring and severity mechanics;
+- structured output contracts and reference semantics;
+- stress-test logic;
+- calibration and evaluation corpus;
+- conformance fixtures.
+
+No open-source license has been granted for the proprietary implementation.

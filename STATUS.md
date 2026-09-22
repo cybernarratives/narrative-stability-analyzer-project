@@ -5,11 +5,11 @@
 Current focus:
 
 - methodology conformance;
-- structured diagnostic contracts;
+- methodology conformance;
 - anti-synthesis behavior;
-- finding attribution and anti-double-counting;
+- finding quality and attribution;
 - regression and evaluation design;
-- methodology/scoring versioning;
+- methodology and result versioning;
 - hosted application design.
 
 The production application is maintained in a private repository.
