@@ -87,7 +87,7 @@ It assumes the author owns the strategy. The analyzer evaluates how that strateg
 
 The hosted application is not yet publicly available.
 
-If you are interested in the methodology, product design, or the broader problem of buyer interpretation and narrative credibility, you can follow the related work at **Cyber Narratives**.
+If you are interested in the methodology, product design, or the broader problem of buyer interpretation and narrative credibility, you can follow the related work at [Cyber Narratives](https://cybernarratives.substack.com).
 
 ---
 
