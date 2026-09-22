@@ -4,7 +4,7 @@
 
 ## Submitted narrative
 
-> Acme Sentinel is an autonomous security platform that investigates every alert and stops threats before they become incidents.
+> ExampleCo Security is an autonomous security platform that investigates every alert and stops threats before they become incidents.
 >
 > Analysts review the platform’s recommendations and approve containment actions before changes are made.
 
