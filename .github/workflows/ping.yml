@@ -2,7 +2,7 @@ name: Ping Server
 
 on:
   schedule:
-    - cron: '2-57/5 6-23 * * *'
+    - cron: '3-58/5 6-23 * * *'
       timezone: 'America/Los_Angeles'
   workflow_dispatch:
 
