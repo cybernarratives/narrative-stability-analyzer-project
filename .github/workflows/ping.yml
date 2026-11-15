@@ -2,9 +2,8 @@ name: Ping Server
 
 on:
   schedule:
-    # Runs every 5 minutes (the shortest interval GitHub allows)
-    - cron: '*/5 * * * *'
-  # Allows you to manually trigger the workflow from the Actions tab
+    # Runs every 5 minutes from 6:00 AM to 11:55 PM PST (14:00 to 07:55 UTC)
+    - cron: '*/5 14-23,0-7 * * *'
   workflow_dispatch:
 
 jobs:
