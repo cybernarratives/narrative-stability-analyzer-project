@@ -12,4 +12,4 @@ jobs:
     steps:
       - name: Send HTTP Request
         run: |
-          curl -f -s -o /dev/null -w "Status: %{http_code} | Time: %{time_total}s\n" "${{ secrets.SERVER_URL }}"
+          curl -L -f -s -o /dev/null -w "Status: %{http_code} | Time: %{time_total}s\n" "${{ secrets.SERVER_URL }}"
